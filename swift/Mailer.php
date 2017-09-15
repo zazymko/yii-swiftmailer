@@ -9,7 +9,7 @@ use zazymko\swiftmailer\BaseMailer;
  * Mailer implements a mailer based on SwiftMailer.
  * @property array|\Swift_Mailer $swiftMailer Swift mailer instance or array configuration. This property is read-only.
  * @property array|\Swift_Transport $transport This property is read-only.
- * @author Dmitriy zazymko <dmitriy@zazymko.com>
+ * @author Artem Zazymko <artem.zazymko@gmail.com>
  * @author Paul Klimov <klimov.paul@gmail.com>
  */
 class Mailer extends BaseMailer
@@ -170,7 +170,7 @@ class Mailer extends BaseMailer
             $reflection = new \ReflectionObject($object);
             foreach ($config as $name => $value) {
                 if ($reflection->hasProperty($name) && $reflection->getProperty($name)->isPublic()) {
-                    $object->$name = $value;
+                    $object->{$name} = $value;
                 } else {
                     $setter = 'set' . $name;
                     if ($reflection->hasMethod($setter) || $reflection->hasMethod('__call')) {

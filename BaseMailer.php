@@ -6,7 +6,7 @@ use Yii;
 
 /**
  * BaseMailer serves as a base class that implements the basic functions required by [[MailerInterface]].
- * @author Dmitriy zazymko <dmitriy@zazymko.com>
+ * @author Artem Zazymko <artem.zazymko@gmail.com>
  * @author Paul Klimov <klimov.paul@gmail.com>
  */
 abstract class BaseMailer extends \CComponent implements MailerInterface
@@ -134,6 +134,9 @@ abstract class BaseMailer extends \CComponent implements MailerInterface
         return Yii::createComponent($config);
     }
 
+    /**
+     * @var string new message
+     */
     private $_message;
 
     /**
@@ -368,7 +371,7 @@ abstract class BaseMailer extends \CComponent implements MailerInterface
     }
 
     /**
-     * @param CModelEvent $event the event parameter
+     * @param \CModelEvent $event the event parameter
      */
     public function onBeforeSend($event)
     {
@@ -389,7 +392,7 @@ abstract class BaseMailer extends \CComponent implements MailerInterface
     }
 
     /**
-     * @param CModelEvent $event the event parameter
+     * @param \CModelEvent $event the event parameter
      */
     public function onAfterSend($event)
     {

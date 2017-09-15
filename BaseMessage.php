@@ -6,7 +6,7 @@ use Yii;
 
 /**
  * BaseMessage serves as a base class that implements the [[send()]] method required by [[MessageInterface]].
- * @author Dmitriy zazymko <dmitriy@zazymko.com>
+ * @author Artem Zazymko <artem.zazymko@gmail.com>
  * @author Paul Klimov <klimov.paul@gmail.com>
  */
 abstract class BaseMessage extends \CComponent implements MessageInterface

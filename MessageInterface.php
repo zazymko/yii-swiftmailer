@@ -4,7 +4,7 @@ namespace zazymko\swiftmailer;
 
 /**
  * MessageInterface is the interface that should be implemented by mail message classes.
- * @author Dmitriy zazymko <dmitriy@zazymko.com>
+ * @author Artem Zazymko <artem.zazymko@gmail.com>
  * @author Paul Klimov <klimov.paul@gmail.com>
  */
 interface MessageInterface

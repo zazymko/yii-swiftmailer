@@ -4,7 +4,7 @@ namespace zazymko\swiftmailer;
 
 /**
  * MailerInterface is the interface that should be implemented by mailer classes.
- * @author Dmitriy zazymko <dmitriy@zazymko.com>
+ * @author Artem Zazymko <artem.zazymko@gmail.com>
  * @author Paul Klimov <klimov.paul@gmail.com>
  */
 interface MailerInterface

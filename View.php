@@ -3,7 +3,7 @@
 namespace zazymko\swiftmailer;
 
 /**
- * @author Dmitriy zazymko <dmitriy@zazymko.com>
+ * @author Artem Zazymko <artem.zazymko@gmail.com>
  */
 class View
 {
