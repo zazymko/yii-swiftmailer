@@ -17,12 +17,17 @@
     }
   ],
   "require": {
-    "yiisoft/yii": ">=1.1.14",
-    "swiftmailer/swiftmailer": "~5.0"
+    "yiisoft/yii": ">=1.1.19",
+    "swiftmailer/swiftmailer": "~6.0"
   },
   "autoload": {
     "psr-4": {
       "zazymko\\swiftmailer\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
     }
   }
 }
