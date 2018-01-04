@@ -24,10 +24,5 @@
     "psr-4": {
       "zazymko\\swiftmailer\\": ""
     }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "2.1.x-dev"
-    }
   }
 }
