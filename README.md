@@ -1,7 +1,7 @@
 SwiftMailer Extension for Yii1, imported yii2-swiftmailer
 ===============================
 
-This extension provides a [SwiftMailer](http://swiftmailer.org/) mail solution for [Yii framework 1](http://www.yiiframework.com).
+This extension provides a [SwiftMailer 6.0.x](http://swiftmailer.org/) mail solution for [Yii framework 1](http://www.yiiframework.com).
 
 
 Installation
@@ -16,7 +16,7 @@ composer require zazymko/yii-swiftmailer
 or add
 
 ```json
-"zazymko/yii-swiftmailer": "~1.0.0"
+"zazymko/yii-swiftmailer": "~2.0.0"
 ```
 
 to the require section of your composer.json.
